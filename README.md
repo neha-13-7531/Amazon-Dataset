@@ -5,18 +5,28 @@
 
 # Important Features
 **1.Product Name** : Define the product name
+
 **2.Actual Price** : The show actual price of that product
+
 **3.Discounted Price : The show discount price of product 
+
 **4.Discount Percentage** : percentage of discount
+
 **5.Rating** : To show the rating of particular of that product
+
 **6.Rating Count** : rating count of product
+
 **7.category** : Catrgory of that product.i.e the product is belongs to which category.
 
 # Tools/libraries
 **1.Pandas** – for data manipulation
+
 **2.Matplotlib & Seaborn** – for visualization
+
 **3.Jupyter Notebook** – for interactive analysis
+
 **4.numpy** - mathematical calculation
+
 **5.ydata profiling** - to create profile report
 
 #  Steps of EDA
