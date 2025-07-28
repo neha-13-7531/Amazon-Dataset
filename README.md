@@ -8,7 +8,7 @@
 
 **2.Actual Price** : The show actual price of that product
 
-**3.Discounted Price : The show discount price of product 
+**3.Discounted Price** : The show discount price of product 
 
 **4.Discount Percentage** : percentage of discount
 
