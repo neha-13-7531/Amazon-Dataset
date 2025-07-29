@@ -50,16 +50,36 @@ By exploring product attributes such as pricing, ratings, discount percentage, a
 - Created insightful visualizations using bar charts, histograms, line plots, and scatter plots.  
 - Examined relationships between **price**, **discount**, **rating**, and **review count**.
 
+#### 🔗 Method Chaining 
+
+To keep the data transformation process clean, readable, and efficient, **method chaining** was used for cleaning and preprocessing. This approach avoids intermediate variables and applies transformations in a step-by-step pipeline.
+
+✅ Benefits of Method Chaining
+- Clean and readable transformation pipeline
+- Easier to debug and maintain
+- Encourages functional-style data processing
+- Ideal for notebooks and scripts where clarity is important
 
 ## 💡 Recommendations
 
-- ✅ Recommend products based on user behavior and high-rating trends  
-- 📅 Adjust discounts and visibility based on festivals and seasonal trends  
-- 🔖 Promote "Deal of the Day" for slow-moving inventory or competitive categories  
+### 📊 Discount Percentage Distribution
+**📝 Observation**: Few or no products offer discounts >60%  
+**✅ Recommendation**: Track customer response to these and use them to boost site traffic and move unsold stock.
 
+### 💰 Price vs Rating
+**📝 Observation**: Final price drops for highly rated products, which is counterintuitive  
+**✅ Recommendation**: Consider raising prices slightly for high-rated, low-priced products where sales volume is strong — customers may still buy due to trust.
 
+### 🔻 Discount vs Actual Price
+**📝 Observation**: Customers shy away from high prices even with small discounts  
+**✅ Recommendation**: Promote EMI options + moderate discounts (30–40%) to increase conversion of expensive items.
 
+**📝 Observation**: High-priced items with low discounts can appear less attractive  
+**✅ Recommendation**: Use product pages and ads to emphasize features, durability, warranties, or brand trust.
 
+### 🧠 Behavioral & Segment-Based Pricing
+**📝 Observation**: Over 110 products lie in the 50–60% discount band  
+**✅ Recommendation**: Apply personalized discounts using customer behavior or loyalty data.
 
 
 
